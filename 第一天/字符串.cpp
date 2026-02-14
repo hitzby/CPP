@@ -10,3 +10,4 @@ int main(){
     cout<<str2<<endl;
     return 0;
 }
+//system("cls");意思是清屏
