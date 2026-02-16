@@ -12,7 +12,7 @@ class person{
 ostream& operator<<(ostream&cout,person&p){//重载输出运算符
     cout<<"m_a="<<p.m_a<<",m_b="<<p.m_b;
     return cout;//返回cout对象本身，支持连续输出
-}
+}   
 int main(){
     person p(10,20);
     cout<<p<<" hello world "<<endl;
